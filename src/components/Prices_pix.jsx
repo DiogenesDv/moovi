@@ -12,7 +12,7 @@
                         <p id="cashback_return" className="text-xs font-normal dark:text-gray-300 text-cyan-400">Ganhe 3% de Cashback</p>
                     </div>
                     <div className="flex items-center h-5">
-                        {/* SEM O checked PANA NAO INICIAR EM UMA OPÇÃO NAO DESEJADA PELO CLIENTE */}
+                        {/* SEM O checked PARA NAO INICIAR EM UMA OPÇÃO NAO DESEJADA PELO CLIENTE */}
                         <input id="default-radio" type="radio" value="" name="default-radio" class="w-4 h-4 cursor-pointer text-green-300 bg-gray-100 border-gray-300 focus:ring-green-300 dark:focus:ring-green-300" />
                     </div>
                 </div>

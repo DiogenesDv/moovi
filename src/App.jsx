@@ -6,6 +6,7 @@ import Splits from './components/Splits';
 import Footerr from './components/Footer';
 
 import TelaQR from './components/TelaQR';
+import TelaCartaoPagamento from './components/TelaCartaoPagamento';
 
 
 
@@ -19,9 +20,15 @@ function App() {
       <Split_pix2x/>
       <Splits/>
       
-      <Footerr/> */}
-
       <TelaQR/>
+
+      <Footerr/> 
+      
+      */}
+
+      <TelaCartaoPagamento/>
+
+      
     </div>
   );
 }
