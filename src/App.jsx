@@ -3,20 +3,25 @@ import Question from './components/Question';
 import Prices_pix from './components/Prices_pix';
 import Split_pix2x from './components/Split pix2x';
 import Splits from './components/Splits';
-
 import Footerr from './components/Footer';
+
+import TelaQR from './components/TelaQR';
+
+
+
 
 function App() {
   return (
     <div>
-      <Header_logo/>
+      {/* <Header_logo/>
       <Question/>
       <Prices_pix/>
       <Split_pix2x/>
       <Splits/>
       
-      
-      <Footerr/>
+      <Footerr/> */}
+
+      <TelaQR/>
     </div>
   );
 }

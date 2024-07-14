@@ -12,7 +12,7 @@ function Splits() {
                             <BgJuros/>
                         </div>
                         <div className="flex items-center h-5">
-                            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 cursor-pointer"/>
+                            <input id="default-radio" type="radio" value="" name="default-radio" class="w-4 h-4 cursor-pointer"/>
                         </div>
                         
                     </div>

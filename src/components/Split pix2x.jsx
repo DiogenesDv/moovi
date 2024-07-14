@@ -1,4 +1,4 @@
-function Split_pix2x() {
+function Split_pix() {
     return (
         <div className="mt-8">
             <div className="relative">
@@ -13,7 +13,7 @@ function Split_pix2x() {
                             <p id="cashback_return_parcelado" className="text-xs font-normal dark:text-gray-300 text-slate-500">Total R$ 30.600,00</p>
                         </div>
                         <div className="flex items-center h-5">
-                            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 cursor-pointer"/>
+                            <input id="default-radio" type="radio" value="" name="default-radio" class="w-4 h-4 cursor-pointer"/>
                         </div>
                     </div>
                 </div>
@@ -22,4 +22,4 @@ function Split_pix2x() {
     );
 };
 
-export default Split_pix2x;
+export default Split_pix;
