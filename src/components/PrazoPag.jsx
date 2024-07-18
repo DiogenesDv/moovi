@@ -28,7 +28,7 @@ function PrazoPag() {
 
                 <div>
                     <div className="flex items-center justify-between pr-1 pl-1 border-b-2 border-b-slate-200">
-                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-slate-700 focus:ring-slate-300 font-medium rounded-sm text-sm px-5 py-2.5 pl-0" type="button">Dropdown button</button>    
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-slate-700 focus:ring-slate-300 font-medium rounded-sm text-sm px-5 py-2.5 pl-0" type="button">Como funciona?</button>    
                         <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                         </svg>
