@@ -1,9 +1,9 @@
-import Qr from '../imgs/qrex.jpeg';
+import Qrex from "../imgs/qrex.jpeg";
 
 function QrEx() {
     return (
         <>
-            <img className='ml-auto mr-auto mb-4 border rounded cursor-pointer w-10/12' src={Qr} alt="" title='Qr Exemplo' />
+            <img className='ml-auto mr-auto mb-4 border rounded cursor-pointer w-10/12' src={Qrex} alt="" title='Qr Exemplo' />
 
             <div className="flex justify-center pt-2 w-auto h-8 ml-8 mr-8 text-xs text-center bg-blue-950 rounded text-cyan-50">
                 <button className='flex cursor-pointer'>

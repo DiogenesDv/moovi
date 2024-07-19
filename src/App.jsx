@@ -1,8 +1,8 @@
-import Header_logo from './components/Header_logo';
-import Footerr from './components/Footer';
-import TelaComoPagar from './components/TelaComoPagar';
-import TelaQR from './components/TelaQR';
-import TelaCartaoPagamento from './components/TelaCartaoPagamento';
+import Header_logo from './Components/Components_LogoTop_Footer/Header_logo';
+import Footerr from './Components/Components_LogoTop_Footer/Footer';
+import TelaComoPagar from './Components/Paginas_Principais/TelaComoPagar';
+import TelaQR from './Components/Paginas_Principais/TelaQR';
+import TelaCartaoPagamento from './Components/Paginas_Principais/TelaCartaoPagamento';
 
 
 
@@ -12,13 +12,14 @@ function App() {
     <>
       <Header_logo />
 
-      <TelaComoPagar />
+      <TelaCartaoPagamento/>
 
       <Footerr />
 
-      {/* 
+      {/*
+      <TelaComoPagar />
       <TelaQR/>
-      <TelaCartaoPagamento/>
+      
     */}
     </>
   );

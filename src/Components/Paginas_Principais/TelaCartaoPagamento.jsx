@@ -1,5 +1,5 @@
-import QuestionTelaCartaoPg from "./QuestionTelaCartaoPg";
-import PrazoPag from "./PrazoPag";
+import QuestionTelaCartaoPg from "../Components_questions/QuestionTelaCartaoPg";
+import PrazoPag from "../PrazoPag";
 
 function TelaCartaoPagamento() {
     return (
@@ -26,7 +26,7 @@ function TelaCartaoPagamento() {
                     <div className="flex flex-col ml-5 mr-5 p-3">
                         <form class="w-auto">
                             <div class="mb-5">
-                                <input type="number" id="cpf" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" placeholder="Ex:000.000.000-00" required />
+                                <input type="text" id="cpf" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" placeholder="Ex, sem espaços:000 000 000 00" maxLength="11" required />
                             </div>
                         </form>
                     </div>
@@ -39,7 +39,7 @@ function TelaCartaoPagamento() {
                     <div className="flex flex-col ml-5 mr-5 p-3">
                         <form class="w-auto">
                             <div class="mb-5">
-                                <input type="number" id="numCartao" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" placeholder="Ex:000.000.000-00" required />
+                                <input type="text" id="numCartao" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" placeholder="Ex, sem espaços:0000 0000 0000 0000" maxLength="16" required />
                             </div>
                         </form>
                     </div>
@@ -47,13 +47,13 @@ function TelaCartaoPagamento() {
 
                 <div className="flex justify-center">
                     <div className="relative">
-                        <div className="absolute top-10 left-7">
+                        <div className="absolute top-10 left-5">
                             <span className="absolute w-auto pl-1 pr-2 bottom-0 ml-3 mb-5  bg-slate-300 p-0.5 rounded-md text-sm">Vencimento</span>
                         </div>
-                        <div className="flex flex-col ml-5 mr-5 p-3">
+                        <div className="flex flex-col ml-3 mr-3 p-3">
                             <form class="w-32">
                                 <div class="mb-5">
-                                    <input type="date" id="date" class="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" required />
+                                    <input type="date" id="date" class=" bg-gray-50 border border-gray-300 text-gray-500 text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-none" required />
                                 </div>
                             </form>
                         </div>

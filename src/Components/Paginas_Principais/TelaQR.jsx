@@ -1,6 +1,6 @@
-import QuestionTelaQR from "./QuestionTelaQR";
-import QrEx from "./QrEx";
-import PrazoPag from "./PrazoPag";
+import QuestionTelaQR from "../Components_questions/QuestionTelaQR";
+import QrEx from "../QrEx";
+import PrazoPag from "../PrazoPag";
 
 
 function TelaQR() {
